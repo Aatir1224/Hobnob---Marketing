@@ -16,18 +16,45 @@
     width: 70%;
     min-width: 300px;
     }
-    
-    h1 {
-    text-align: center;  
+
+    h4{
+    font-size: 20px;
+    color: #858585;
+    margin: 30px 0;
+    font-style: italic;
+    line-height: 16px;
     }
-    
+
+    h1{
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    margin-top: 5px;
+    line-height: 20px;
+    }
+
+    p{
+    font-size: 20px;
+    color: #000000;
+    font-family: "Gill Sans", sans-serif;;
+    font-weight: 600;
+    }
+
     input {
     padding: 10px;
     width: 100%;
     font-size: 17px;
     font-family: Raleway;
     border: 1px solid #888888;
+    background-color: #d9e7ee;
+    /*border: 3px solid #13658e;*/
+    height: 120px;
+    margin:0px 25px 25px 0px;
+    font-weight: 500px;
+    font-weight: 600;
     }
+    
+  
     
     input.invalid {
     background-color: #ffdddd;
@@ -76,6 +103,11 @@
     .step.finish {
     background-color: #5f0505;
     }
+
+    .row{
+        margin-top: 20px;
+    }
+
 
 
     /* Drop Down for the Campaign Details Page */
